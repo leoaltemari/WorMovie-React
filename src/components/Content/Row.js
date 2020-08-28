@@ -15,18 +15,22 @@ function Row({ title, fetchUrl }) {
 		}
 		getMovies();
 	}, [fetchUrl]);
+
 	return (
-		<div className="row__posters">
-			{movies.map(movie => {
-				return (
-					<img
-						className="row__poster"
-						key={movie.id}
-						src={`${base_url}${movie.poster_path}`}
-						alt={movie.name}
-					/>
-				);
-			})}
+		<div>
+			<h1 className="title">{title}</h1>
+			<div id="posters" className="row__posters">
+				{movies.map(movie => {
+					return (
+						<img
+							className="row__poster"
+							key={movie.id}
+							src={`${base_url}${movie.poster_path}`}
+							alt={movie.name}
+						/>
+					);
+				})}
+			</div>
 		</div>
 	);
 }

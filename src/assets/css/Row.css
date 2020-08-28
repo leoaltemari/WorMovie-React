@@ -1,16 +1,35 @@
+.title {
+	padding: 5px;
+	margin: 0px 15px;
+	margin-top: 20px;
+	color: #ffbd4a;
+}
+
 .row__posters {
 	display: flex;
+	position: relative;
+	padding: 10px 0px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 40px 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+	display: none;
 }
 
 .row__poster {
 	object-fit: contain;
 	width: 100%;
-	max-height: 100px;
-	margin-right: 20px;
+	max-height: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
 	transition: 0.4s;
 	cursor: pointer;
 }
 
 .row__poster:hover {
-	transform: scale(1.1);
+	margin-right: 20px;
+	margin-left: 20px;
+	transform: scale(1.3);
 }

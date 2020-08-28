@@ -10,7 +10,7 @@ function Content() {
 				title={"WORMOVIE ORIGINALS"}
 				fetchUrl={requests.fetchOriginals}
 			/>
-			{/* <Row title={"Trending Now"} /> */}
+			{/* <Row title={"Trending Now"} fetchUrl={requests.fetchComedyMovies} /> */}
 			{/* <Row title={"Action Movies"} /> */}
 			{/* <Row title={"Comedy Movies"} /> */}
 			{/* <Row title={"Horror Movies"} /> */}
