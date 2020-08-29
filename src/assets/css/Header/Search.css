@@ -1,0 +1,42 @@
+.search__content {
+	display: flex;
+	border: 1px solid white;
+	background-color: black;
+	padding: 5px;
+	align-content: center;
+	transition: 0.8s;
+}
+
+.search__content__hidden {
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	transition: 0.8s;
+}
+
+.search__box {
+	height: 30px;
+	background-color: black;
+	border: none;
+	padding: 10px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.search__box__hidden {
+	display: none;
+}
+
+.search__box:focus {
+	outline: none;
+}
+
+.search__icon {
+	height: 20px;
+	object-fit: contain;
+	margin: 5px 10px;
+}
+
+.search__icon:hover {
+	cursor: pointer;
+}
+

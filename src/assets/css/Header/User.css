@@ -1,0 +1,12 @@
+.user__content {
+	margin: 0px 50px;
+}
+
+.user__icon {
+	object-fit: contain;
+	height: 30px;
+}
+.user__arrow__down {
+	object-fit: contain;
+	height: 30px;
+}
