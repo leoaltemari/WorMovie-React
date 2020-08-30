@@ -24,3 +24,15 @@
 	display: flex;
 	right: 0px;
 }
+
+.dropdown {
+	display: grid;
+	margin: 5px 15px;
+}
+
+.dropdown__line {
+	height: 3px;
+	width: 30px;
+	background-color: white;
+	margin: 3px 0px;
+}

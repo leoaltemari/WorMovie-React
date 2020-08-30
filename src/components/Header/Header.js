@@ -15,6 +15,7 @@ function Header() {
 			}
 		});
 	}, []);
+
 	return (
 		<header className="header__content">
 			<img
